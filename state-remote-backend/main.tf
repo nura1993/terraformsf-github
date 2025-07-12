@@ -3,7 +3,4 @@ resource "aws_instance" "my-ec2" {
   instance_type = "t2.micro"
   key_name = "gangsterkey"
 }
-
-resource "aws_s3_bucket" "name" {
-  bucket = "asdadwe"
-}
+ 
